@@ -1,0 +1,43 @@
+#filters {
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+  }
+  #filters::-webkit-scrollbar {
+    display: none;
+}
+  .filter {
+    margin-top: 2rem;
+    text-align: center;
+    margin-right: 2rem;
+    opacity: 0.7;
+  }
+  .filter a{
+    text-decoration: none;
+    color: black;
+  }
+  .filter:hover {
+    opacity: 1;
+    cursor: pointer;
+    scale: 1.2;
+    transition: ease-in-out all 0.2s;
+  }
+  .filter p {
+    font-size: 0.8rem;
+  }
+  .tax-info {
+    display: none;
+  }
+
+  .tax-toggle {
+    border: 0.1px solid black;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    align-items: center;
+  }
+  .tax-toggle:hover {
+    border: 2px solid black;
+  }
