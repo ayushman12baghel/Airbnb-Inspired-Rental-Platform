@@ -1,3 +1,5 @@
+﻿![Visitor Count](https://profile-counter.glitch.me/{ayushman12baghel}/count.svg)
+
 Airbnb-Inspired Rental Platform
 
 This project is a full-stack web application inspired by Airbnb, where users can browse listings, find places, upload ratings, and view locations on a map. Built with Node.js, Express.js, MongoDB, and EJS, it provides a smooth user experience for exploring and reviewing accommodations.
