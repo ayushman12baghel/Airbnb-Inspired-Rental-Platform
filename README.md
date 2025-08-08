@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Wanderlust - Travel Booking Platform
 
 A full-stack web application for travel enthusiasts to explore, list, and book unique accommodations around the world.
@@ -217,3 +218,30 @@ This project is licensed under the ISC License.
 ## Support
 
 For support, please contact [ayushmanbaghel12@gmail.com] or create an issue in the repository.
+=======
+﻿![Visitor Count](https://profile-counter.glitch.me/{ayushman12baghel}/count.svg)
+
+Airbnb-Inspired Rental Platform
+
+This project is a full-stack web application inspired by Airbnb, where users can browse listings, find places, upload ratings, and view locations on a map. Built with Node.js, Express.js, MongoDB, and EJS, it provides a smooth user experience for exploring and reviewing accommodations.
+
+Tech Stack
+🌐 Frontend: HTML, CSS, JavaScript, EJS
+⚡ Backend: Node.js, Express.js
+🗄️ Database: MongoDB
+🗺️ Maps & Geocoding: Leaflet.js, OpenStreetMap, OpenCage API
+
+Features
+✔️ Browse available places from listings
+✔️ Upload and view ratings for each location
+✔️ View the place on an interactive map using Leaflet.js
+✔️ Search locations using OpenCage Geocoder API
+✔️ User authentication and session management
+✔️ Responsive design for all devices
+
+Map Integration
+The application uses Leaflet.js to display an interactive map.
+OpenStreetMap (OSM) is used as the tile provider.
+OpenCage Geocoder API is integrated for location search functionality.
+Users can view a listing's location on the map and search for new places.
+>>>>>>> 690f522acf2f0b278b5bb20c0b9a7cfbe1c18789
