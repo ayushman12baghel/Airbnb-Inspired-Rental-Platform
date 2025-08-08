@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
           // Initialize the geocoder control
           var control = L.Control.geocoder({
               geocoder: new L.Control.Geocoder.OpenCage({
-                  apiKey: process.env.MAP_TOKEN, // Your OpenCage API key
+                  apiKey: window.mapToken, // API key passed from server
               }),
               placeholder: "Search for a place...", // Placeholder text
               collapsed: false, // Show the search box expanded

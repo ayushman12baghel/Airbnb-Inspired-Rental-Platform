@@ -38,7 +38,7 @@ const store=MongoStore.create({
   touchAfter:24*3600,
 });
 
-store.on("error",()=>{
+store.on("error",(err)=>{
   console.log("Error in mongo session store",err);
 })
 
@@ -77,7 +77,7 @@ main()
     console.log("connected to DB");
   })
   .catch((err) => {
-    console.log("some error");
+    console.log("Database connection error:", err);
   });
 
 app.use((req, res, next) => {
@@ -97,7 +97,7 @@ app.get("/demouser", async (req, res) => {
 });
 
 app.use("/listings", listingRouter);
-app.use("/listings\filter", listingRouter);
+app.use("/listings/filter", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
 
@@ -111,6 +111,8 @@ app.use((err, req, res, next) => {
   // res.status(statusCode).send(message);
 });
 
-app.listen(8080, () => {
-  console.log("Server is Listening to Port 8080");
+const PORT = process.env.PORT || 8080;
+
+app.listen(PORT, () => {
+  console.log(`Server is Listening to Port ${PORT}`);
 });
