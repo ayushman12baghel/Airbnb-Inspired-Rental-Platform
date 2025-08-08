@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Wanderlust - Travel Booking Platform
+# Rentify - Travel Booking Platform
 
 A full-stack web application for travel enthusiasts to explore, list, and book unique accommodations around the world.
 
@@ -47,7 +47,7 @@ Before running this application, make sure you have:
 
    ```bash
    git clone <repository-url>
-   cd Wanderlust
+   cd Rentify
    ```
 
 2. **Install dependencies**
@@ -62,7 +62,7 @@ Before running this application, make sure you have:
 
    ```env
    # Database Configuration
-   ATLASDB_URL=mongodb+srv://username:password@cluster.mongodb.net/wanderlust?retryWrites=true&w=majority
+   ATLASDB_URL=mongodb+srv://username:password@cluster.mongodb.net/rentify?retryWrites=true&w=majority
 
    # Session Secret (use a strong random string)
    SECRET=your-super-secret-session-key
@@ -151,7 +151,7 @@ The application will be available at `http://localhost:8080`
 ## Project Structure
 
 ```
-Wanderlust/
+Rentify/
 ├── controllers/          # Route controllers
 ├── init/                # Database initialization
 ├── models/              # MongoDB models
